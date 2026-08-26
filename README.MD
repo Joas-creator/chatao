@@ -102,3 +102,27 @@ class Usuario:
     def data_nascimento(self, data_nascimento):
         self.__data_nascimento = data_nascimento
 ~~~
+
+## Estrutura do projeto
+
+```
+chatao/
+├── chatao/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── crud_chatao/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── manage.py
+├── README.md
+└── chatao.db
+
+```
